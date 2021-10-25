@@ -72,11 +72,12 @@ nav {
 .header-txt_style {
     color: #fff;
     text-decoration: none;
-    font-family: 'muller', sans-serif;
+    font-family: 'Muller', sans-serif;
     font-size: 18px;
     transition: .3s;
     border-bottom: 1px solid transparent;
     display: inline;
+    text-transform: uppercase;
 }
 
 .txt_dec {
@@ -184,7 +185,7 @@ section {
 }
 
 .main-text {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-size: 120px;
     font-weight: 800px;
     color: #fff;
@@ -261,6 +262,10 @@ section {
     right: 170px;
 }
 
+.next-btn-reverse {
+    transform: rotate(180deg);
+}
+
 #nav-btns {
     position: absolute;
     width: 100%;
@@ -289,7 +294,7 @@ section {
 
 .slide-txt {
     color: #fff;
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-size: 20px;
     font-weight: 800px;
     line-height: 48px;
@@ -333,7 +338,7 @@ section {
 }
 
 .modal__input-name {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -382,7 +387,7 @@ section {
 }
 
 .content__title {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -442,7 +447,7 @@ section {
     border: none;
     outline: none;
     cursor: pointer;
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-weight: 800;
     font-size: 24px;
     line-height: 48px;
@@ -492,7 +497,7 @@ section {
 }
 
 .second-screen-heading {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
@@ -525,7 +530,7 @@ section {
 }
 
 .second-screen-main-text {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -576,7 +581,7 @@ section {
     }
 
     .header-txt_style {
-        font-family: 'muller', sans-serif;
+        font-family: 'Muller', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -639,7 +644,7 @@ section {
 
     .main-text {
         margin-top: 0;
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         opacity: 1;
         text-transform: uppercase;
         font-weight: 800;
@@ -666,7 +671,7 @@ section {
 
     .slide-txt {
         color: #fff;
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-size: 16px;
         font-weight: 800px;
         line-height: 30px;
@@ -707,7 +712,7 @@ section {
         border: none;
         outline: none;
         cursor: pointer;
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 48px;
@@ -753,7 +758,7 @@ section {
 
     .second-screen-heading {
         margin: 0;
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-weight: 800;
         font-size: 30px;
         line-height: 40px;
@@ -763,7 +768,7 @@ section {
 
     .second-screen-main-text {
         margin-top: 10px;
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-weight: bold;
         font-style: normal;
         font-size: 18px;
@@ -777,7 +782,7 @@ section {
     }
 
     .request__section-name {
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 30px;
@@ -792,7 +797,7 @@ section {
     }
 
     .contacts__section-name {
-        font-family: 'unineue', sans-serif;
+        font-family: 'UniNeue', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 30px;
@@ -819,7 +824,7 @@ section {
 }
 
 .offer__section-name {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
@@ -852,7 +857,7 @@ section {
 
 .accordion__title{
     margin: 0;
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -934,7 +939,7 @@ section {
 }
 
 .accordion__content-text {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -955,7 +960,7 @@ section {
 }
 
 .request__section-name {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
@@ -968,7 +973,7 @@ section {
 
 .request__section-names {
     margin-left: 66px;
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -998,7 +1003,7 @@ section {
     background: #2C2C2C;
     padding-left: 22px;
     color: #FFFFFF;
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1060,7 +1065,7 @@ section {
 }
 
 .request__section-checkbox-text {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1192,7 +1197,7 @@ label {
 }
 
 .contacts__section-name {
-    font-family: 'unineue', sans-serif;
+    font-family: 'UniNeue', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -1203,7 +1208,7 @@ label {
 }
 
 .contacts__section-description {
-    font-family: 'muller',sans-serif;
+    font-family: 'Muller',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1219,8 +1224,8 @@ label {
     height: 463px;
 }
 
-.Hawking__Bros-link {
-    font-family: 'muller', sans-serif;
+.footer-link {
+    font-family: 'Muller', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1240,7 +1245,7 @@ label {
 
 
 .footer__text {
-    font-family: 'muller', sans-serif;
+    font-family: 'Muller', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

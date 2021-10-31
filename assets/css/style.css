@@ -404,10 +404,11 @@ section {
     min-width: 257px;
     height: 10px;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    background: rgba(107, 201, 189, 0.5);
+    background: none;
     border: none;
     outline: none;
     cursor: pointer;
@@ -417,6 +418,16 @@ section {
     line-height: 48px;
     color: #FFFFFF;
     text-transform: uppercase;
+    z-index: 1;
+}
+
+.application-btn::before {
+    content: '';
+    background-color:  rgba(107, 201, 188, 0.5);
+    min-width: 257px;
+    height: 10px;
+    position: absolute;
+    z-index: 0;
 }
 
 .application-btn-position {
@@ -665,7 +676,7 @@ section {
         width: 197px;
         height: 8px;
         white-space: nowrap;
-        background: rgba(107, 201, 189, 0.5);
+        background: none;
         border: none;
         outline: none;
         cursor: pointer;
@@ -675,6 +686,15 @@ section {
         line-height: 48px;
         color: #FFFFFF;
         text-transform: uppercase;
+    }
+
+    .application-btn::before {
+        content: '';
+        background-color:  rgba(107, 201, 189, 0.5);
+        min-width: 190px;
+        height: 10px;
+        position: absolute;
+        z-index: 0;
     }
 
     .application-btn:hover {
